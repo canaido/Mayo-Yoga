@@ -1,0 +1,96 @@
+/*-- login, register & review--*/
+fieldset label{
+  font-size: 1.75em;
+  text-align: left;
+  margin: 0.5%;
+  padding: 1.5%;
+}
+
+fieldset input, fieldset select{
+  max-width:30em;
+  width:100%;
+  font-size: 2em;
+  margin: 1.5%;
+  padding: 1.5%;
+}
+
+form{
+  margin: 1%;
+}
+
+.form_group, .signed-in_header, legend{
+  text-align: center;
+  font-size: 1.5em;
+
+}
+
+.form_group .review{
+  height: 9em;
+}
+
+.form_group textarea{
+  max-width:30em;
+  width:100%;
+  rows:9;
+  margin: 1%;
+  padding: 1%;
+}
+
+{
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  margin: 2.5%;
+  padding: 1.5%;
+}
+
+.form_btn{
+  background-color:#FF087F;
+  color: MistyRose;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 0.5em;
+}
+
+.form_btn:hover{
+  background-color:#9C225D;
+  color: MistyRose;
+
+}
+
+.text_warning{
+  text-align: center;
+}
+
+.registration_log_btn_list, .reg_text{
+  display: block;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 1%;
+  padding: 1%;
+}
+
+.registration_log_btn_list li{
+  display: inline;
+}
+/*-- /login, register & review--*/
+/*-------------------------*/
+/*-- review tables --*/
+table tr, table td {
+  border: none;
+  border-collapse:collapse;
+	text-align: left;
+  margin: 0.5%;
+  padding: 1.5%;
+  line-height:1.25;
+}
+
+table td {
+  font-style: italic;
+}
+
+table th{
+  font-weight: bold;
+}
+/*-- /review tables --*/
+/*-------------------------*/
